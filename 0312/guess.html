@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">
+			var random = Math.floor(Math.random() * 10);
+			var cnt = 1;
+			while(true){
+				var first = prompt("숫자를 맞춰보세요! 맞출때까지 계속~됩니다.");
+				if(parseInt(random) == parseInt(first)){
+					break;
+				}
+				else
+					cnt++;
+			}
+			document.write("맞춘 숫자 : " + random + " 총 시도 횟수 : " + cnt);
+		
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>
